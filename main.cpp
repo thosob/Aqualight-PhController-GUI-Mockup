@@ -33,6 +33,12 @@ int main(int argc, char *argv[]) {
         if(strcmp(argv[1],"-c") == 0){
             printf("<Conductivity>%d</Conductivity>", rand() % 1800);
         }        
+        if(strcmp(argv[1],"-tp") == 0){
+            printf("<value>%d</value>", rand() % 14);
+        } 
+        if(strcmp(argv[1],"-tc") == 0){
+            printf("<value>%d</value>", rand() % 1800);
+        } 
     }    
 }
 
