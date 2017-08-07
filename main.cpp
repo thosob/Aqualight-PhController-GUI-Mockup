@@ -34,7 +34,7 @@ int main(int argc, char *argv[]) {
             printf("<EC>%d</EC>", rand() % 1800);
         }        
         if(strcmp(argv[1],"-tp") == 0){
-            printf("<value>%d</value>", rand() % 14);
+            printf("asdafasrfgxyfxycvasdfg34235234>asd2135<yv<value>%d</value>sadgasdgawq34q23rfasdvasdvsdcy>Sdsdvcsd", rand() % 14);
         } 
         if(strcmp(argv[1],"-tc") == 0){
             printf("<value>%d</value>", rand() % 1800);
